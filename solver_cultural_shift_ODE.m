@@ -32,7 +32,7 @@ i
   % M and P parameters
 
   rm = 10^(-5);        % M growth
-  dm = 0;            % M death rate 
+  dm = 0.1;            % M death rate 
   rp = 1.5*10^(-5);    % P growth 
   sp = 10^(-5);        % fitteness due to P
   u = 5*10^(-3);       % mutation from M to P 
