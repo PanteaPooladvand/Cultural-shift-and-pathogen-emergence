@@ -361,17 +361,9 @@ time_of_first_mut;
 mutations = [0 diff(mut)]; % create and array with the mutations at each timepoint
 
 
-%figures where all populations are represented in subplots
+% figures with populations represented in subplots
 figure
 
-% subplot(4,1,1)
-% plot(t,mutations,'LineWidth',3)
-% set(gca,'FontSize',15,'fontweight','bold')
-% title('Mutations')
-% size(N1)
-% size(N2)
-% size(N3)
-% size(t)
 subplot(2,1,1)
 plot(t,N1,t,N2,t,N3,'LineWidth',2)
 %plot(t,N2,'LineWidth',3)
